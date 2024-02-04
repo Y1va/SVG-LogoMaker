@@ -1,0 +1,27 @@
+{
+  "name": "SVG-LogoMaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y1va/SVG-LogoMaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y1va/SVG-LogoMaker/issues"
+  },
+  "homepage": "https://github.com/Y1va/SVG-LogoMaker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^29.5.0"
+  }
+}
