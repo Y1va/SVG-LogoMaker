@@ -53,7 +53,7 @@
   To run tests, use the following command:
 
   ```
-  npm test
+  npm run test
   ```
 
   ## Questions
