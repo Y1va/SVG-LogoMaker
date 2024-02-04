@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const { Circle, Triangle, Square } = require('./lib/shapes.js');
 const fs = require('fs');
+
 // VALIDATION FOR USERS TO ENTER 3 OR LESS CHARS FOR LOGO TEXT
 const validateInput = (name) => {
     if (name.length > 3) {
@@ -9,6 +10,7 @@ const validateInput = (name) => {
     }
     return true;
 };
+
 // USER INPUT/SELECTION
 inquirer.prompt([
     {
