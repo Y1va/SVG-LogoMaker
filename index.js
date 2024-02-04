@@ -4,7 +4,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 // Destructuring with {}
 const {Circle, Triangle, Square} = require("./lib/shapes");
-const { text } = require("node:stream/consumers");
 
 
 
@@ -71,4 +70,4 @@ inquirer.prompt([
       console.log("SVG saved successfully");
     } 
   })
-})
+});
